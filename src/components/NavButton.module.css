@@ -1,0 +1,26 @@
+.NavButton {
+    background: transparent;
+    border: 3px solid var(--blue);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    min-width: 250px;
+    outline: none;
+    padding: 14px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    user-select: none;
+}
+
+.NavButton:hover {
+    background: linear-gradient(
+        to left,
+        #000000,
+        var(--dark-blue),
+        var(--blue),
+        var(--blue),
+        var(--dark-blue),
+        #000000
+    );
+    color: var(--yellow);
+}

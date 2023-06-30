@@ -1,0 +1,373 @@
+[
+    {
+        "name": "Angry Mob",
+        "nation": "GLA",
+        "strengths": ["Infantry", "Vehicles"],
+        "weaknesses": ["Flames", "Flash-bang grenades", "Toxins"],
+        "cost": 800
+    },
+    {
+        "name": "Assault Troop Crawler",
+        "nation": "China",
+        "strengths": ["Aircraft", "Buildings", "Infantry"],
+        "weaknesses": ["Tanks"],
+        "cost": 2400
+    },
+    {
+        "name": "Aurora Alpha Bomber",
+        "nation": "USA",
+        "strengths": ["Buildings"],
+        "weaknesses": ["Anti-aircraft"],
+        "cost": 2000
+    },
+    {
+        "name": "Aurora Bomber",
+        "nation": "USA",
+        "strengths": ["Buildings"],
+        "weaknesses": ["Anti-aircraft"],
+        "cost": 2500
+    },
+    {
+        "name": "Avenger",
+        "nation": "USA",
+        "strengths": ["Aircraft", "Missile-armed units"],
+        "weaknesses": ["Infantry", "Tanks"],
+        "cost": 2000
+    },
+    {
+        "name": "Battle Drone",
+        "nation": "USA",
+        "strengths": ["Infantry"],
+        "weaknesses": ["Anti-aircraft"],
+        "cost": 300
+    },
+    {
+        "name": "Battle Master",
+        "nation": "China",
+        "strengths": ["Buildings", "Tanks"],
+        "weaknesses": ["Aircraft", "Infantry"],
+        "cost": 800
+    },
+    {
+        "name": "Black Lotus",
+        "nation": "China",
+        "strengths": ["Buildings", "Vehicles"],
+        "weaknesses": ["Stealth detectors"],
+        "cost": 1500
+    },
+    {
+        "name": "Bomb Truck",
+        "nation": "GLA",
+        "strengths": ["Buildings", "Infantry", "Tanks"],
+        "weaknesses": ["Stealth detectors"],
+        "cost": 1200
+    },
+    {
+        "name": "Colonel Burton",
+        "nation": "USA",
+        "strengths": ["Buildings", "Infantry", "Tanks"],
+        "weaknesses": ["Stealth detectors"],
+        "cost": 1500
+    },
+    {
+        "name": "Comanche",
+        "nation": "USA",
+        "strengths": ["Infantry", "Light vehicles", "Tanks"],
+        "weaknesses": ["Anti-aircraft", "Missile-armed units"],
+        "cost": 1500
+    },
+    {
+        "name": "Construction Dozer",
+        "nation": "USA",
+        "strengths": ["Mines"],
+        "weaknesses": ["Armed units"],
+        "cost": 1000
+    },
+    {
+        "name": "Crusader",
+        "nation": "USA",
+        "strengths": ["Buildings", "Vehicles"],
+        "weaknesses": ["Rocket infantry"],
+        "cost": 900
+    },
+    {
+        "name": "Dragon Tank",
+        "nation": "China",
+        "strengths": ["Buildings", "Infantry"],
+        "weaknesses": ["Aircraft", "Tanks"],
+        "cost": 800
+    },
+    {
+        "name": "Emperor Overlord",
+        "nation": "China",
+        "strengths": ["Buildings", "Vehicles"],
+        "weaknesses": ["Aircraft", "Rocket infantry"],
+        "cost": 1900
+    },
+    {
+        "name": "Gattling Tank",
+        "nation": "China",
+        "strengths": ["Aircraft", "Infantry"],
+        "weaknesses": ["Tanks"],
+        "cost": 800
+    },
+    {
+        "name": "Hacker",
+        "nation": "China",
+        "strengths": ["Buildings"],
+        "weaknesses": ["Infantry", "Vehicles"],
+        "cost": 625
+    },
+    {
+        "name": "Helix",
+        "nation": "China",
+        "strengths": ["Infantry", "Light vehicles", "Tanks"],
+        "weaknesses": ["Anti-aircraft", "Missile-armed units"],
+        "cost": 1750
+    },
+    {
+        "name": "Hijacker",
+        "nation": "GLA",
+        "strengths": ["Tanks", "Vehicles"],
+        "weaknesses": ["Infantry", "Stealth detectors"],
+        "cost": 400
+    },
+    {
+        "name": "Humvee",
+        "nation": "USA",
+        "strengths": ["Infantry"],
+        "weaknesses": ["Tanks"],
+        "cost": 700
+    },
+    {
+        "name": "Inferno Cannon",
+        "nation": "China",
+        "strengths": ["Base defenses", "Infantry"],
+        "weaknesses": ["Aircraft", "Tanks"],
+        "cost": 900
+    },
+    {
+        "name": "Jarmen Kell",
+        "nation": "GLA",
+        "strengths": ["Infantry"],
+        "weaknesses": ["Stealth detectors"],
+        "cost": 1500
+    },
+    {
+        "name": "King Raptor",
+        "nation": "USA",
+        "strengths": ["Aircraft", "Light vehicles", "Tanks"],
+        "weaknesses": ["Anti-aircraft", "Missile-armed units"],
+        "cost": 1100
+    },
+    {
+        "name": "Laser Crusader Tank",
+        "nation": "USA",
+        "strengths": ["Buildings", "Vehicles"],
+        "weaknesses": ["Aircraft", "Missile-armed units"],
+        "cost": 900
+    },
+    {
+        "name": "Marauder Tank",
+        "nation": "GLA",
+        "strengths": ["Buildings", "Light vehicles"],
+        "weaknesses": ["Aircraft", "Rocket infantry"],
+        "cost": 800
+    },
+    {
+        "name": "Mig",
+        "nation": "China",
+        "strengths": ["Aircraft", "Light vehicles", "Tanks"],
+        "weaknesses": ["Anti-aircraft", "Missile-armed units"],
+        "cost": 1200
+    },
+    {
+        "name": "Mini-Gunner",
+        "nation": "China",
+        "strengths": ["Aircraft", "Infantry"],
+        "weaknesses": ["Tanks"],
+        "cost": 350
+    },
+    {
+        "name": "Missile Defender",
+        "nation": "USA",
+        "strengths": ["Aircraft", "Tanks"],
+        "weaknesses": ["Infantry"],
+        "cost": 300
+    },
+    {
+        "name": "Nuke Cannon",
+        "nation": "China",
+        "strengths": ["Base defenses", "Buildings", "Infantry"],
+        "weaknesses": ["Aircraft", "Tanks"],
+        "cost": 1600
+    },
+    {
+        "name": "Attack Outpost",
+        "nation": "China",
+        "strengths": ["Stealthed units"],
+        "weaknesses": ["Aircraft", "Tanks"],
+        "cost": 1000
+    },
+    {
+        "name": "Overlord",
+        "nation": "China",
+        "strengths": ["Buildings", "Vehicles"],
+        "weaknesses": ["Aircraft", "Rocket infantry"],
+        "cost": 2000
+    },
+    {
+        "name": "Paladin",
+        "nation": "USA",
+        "strengths": ["Buildings", "Missile-armed units", "Tanks"],
+        "weaknesses": ["Aircraft"],
+        "cost": 1100
+    },
+    {
+        "name": "Path Finder",
+        "nation": "USA",
+        "strengths": ["Infantry"],
+        "weaknesses": ["Light vehicles", "Stealth detectors"],
+        "cost": 600
+    },
+    {
+        "name": "Quad Cannon",
+        "nation": "GLA",
+        "strengths": ["Aircraft", "Infantry"],
+        "weaknesses": ["Tanks"],
+        "cost": 700
+    },
+    {
+        "name": "Radar Van",
+        "nation": "GLA",
+        "strengths": ["Stealthed units"],
+        "weaknesses": ["Armed units"],
+        "cost": 500
+    },
+    {
+        "name": "Ranger",
+        "nation": "USA",
+        "strengths": ["Infantry"],
+        "weaknesses": ["Light vehicles"],
+        "cost": 225
+    },
+    {
+        "name": "Raptor",
+        "nation": "USA",
+        "strengths": ["Aircraft", "Light vehicles", "Tanks"],
+        "weaknesses": ["Anti-aircraft", "Missile-armed units"],
+        "cost": 1400
+    },
+    {
+        "name": "Rebel",
+        "nation": "GLA",
+        "strengths": ["Infantry"],
+        "weaknesses": ["Light vehicles", "Tanks"],
+        "cost": 150
+    },
+    {
+        "name": "Red Guard",
+        "nation": "China",
+        "strengths": ["Infantry"],
+        "weaknesses": ["Light vehicles"],
+        "cost": 300
+    },
+    {
+        "name": "Rocket Buggy",
+        "nation": "GLA",
+        "strengths": ["Base defenses", "Buildings"],
+        "weaknesses": ["Aircraft", "Tanks"],
+        "cost": 900
+    },
+    {
+        "name": "RPG Trooper",
+        "nation": "GLA",
+        "strengths": ["Tanks"],
+        "weaknesses": ["Infantry"],
+        "cost": 300
+    },
+    {
+        "name": "Scorpion Tank",
+        "nation": "GLA",
+        "strengths": ["Light vehicles"],
+        "weaknesses": ["Aircraft", "Rocket infantry"],
+        "cost": 600
+    },
+    {
+        "name": "Scout Drone",
+        "nation": "USA",
+        "strengths": ["Stealthed units"],
+        "weaknesses": ["Anti-aircraft"],
+        "cost": 100
+    },
+    {
+        "name": "SCUD Launcher",
+        "nation": "GLA",
+        "strengths": ["Base defenses", "Buildings", "Infantry"],
+        "weaknesses": ["Aircraft", "Tanks"],
+        "cost": 1200
+    },
+    {
+        "name": "Stealth Fighter",
+        "nation": "USA",
+        "strengths": ["Base defenses"],
+        "weaknesses": ["Anti-aircraft", "Stealth detectors"],
+        "cost": 1600
+    },
+    {
+        "name": "Tank Hunter",
+        "nation": "China",
+        "strengths": ["Tanks"],
+        "weaknesses": ["Infantry"],
+        "cost": 300
+    },
+    {
+        "name": "Technical",
+        "nation": "GLA",
+        "strengths": ["Infantry"],
+        "weaknesses": ["Aircraft", "Tanks"],
+        "cost": 500
+    },
+    {
+        "name": "Terrorist",
+        "nation": "GLA",
+        "strengths": ["Buildings", "Tanks"],
+        "weaknesses": ["Infantry", "Light vehicles"],
+        "cost": 200
+    },
+    {
+        "name": "Tomahawk",
+        "nation": "USA",
+        "strengths": ["Base defenses"],
+        "weaknesses": ["Aircraft", "Light vehicles", "Tanks"],
+        "cost": 1200
+    },
+    {
+        "name": "Toxin Rebel",
+        "nation": "GLA",
+        "strengths": ["Infantry"],
+        "weaknesses": ["Light vehicles", "Tanks"],
+        "cost": 200
+    },
+    {
+        "name": "Toxin Tractor",
+        "nation": "GLA",
+        "strengths": ["Infantry"],
+        "weaknesses": ["Aircraft", "Tanks"],
+        "cost": 500
+    },
+    {
+        "name": "Troop Crawler",
+        "nation": "China",
+        "strengths": ["Buildings", "Infantry"],
+        "weaknesses": ["Aircraft", "Tanks"],
+        "cost": 1400
+    },
+    {
+        "name": "Worker",
+        "nation": "GLA",
+        "strengths": ["Mines"],
+        "weaknesses": ["Armed units"],
+        "cost": 200
+    }
+]

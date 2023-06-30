@@ -1,0 +1,10 @@
+.Timer {
+    display: flex;
+    gap: 3px;
+    font-size: 1.3rem;
+}
+.Timer-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}

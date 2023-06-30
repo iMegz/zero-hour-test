@@ -1,0 +1,47 @@
+.Classic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.suggestions {
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+    background: #000000e2;
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-height: 284px;
+    overflow-y: auto;
+}
+.suggestions li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 6px;
+    border: 3px solid var(--blue);
+}
+
+.suggestions li:hover {
+    background: linear-gradient(
+        to left,
+        #000000,
+        var(--dark-blue),
+        var(--blue),
+        var(--blue),
+        var(--dark-blue),
+        #000000
+    );
+}
+.suggestions li:hover span {
+    color: var(--yellow);
+}
+
+.suggestions li img {
+    height: 100%;
+}

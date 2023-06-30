@@ -1,0 +1,9 @@
+.App-header {
+    background: url("./assets/img/logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 140px;
+    margin: 0 auto 1rem;
+}

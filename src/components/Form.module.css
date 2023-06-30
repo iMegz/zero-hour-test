@@ -1,0 +1,41 @@
+.Form {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.Input {
+    background: transparent;
+    border: 3px solid var(--blue);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    min-width: 250px;
+    outline: none;
+    padding: 8px;
+}
+
+.SubmitBtn {
+    background: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 3px solid var(--blue);
+    height: 43.2px;
+    transition: all 0.3s;
+    width: 75.6px;
+}
+
+.SubmitBtn img {
+    width: fit-content;
+}
+
+.SubmitBtn:disabled {
+    border-color: red;
+}
+
+.SubmitBtn:disabled:hover {
+    box-shadow: 0 0 12px red inset;
+}
+
+.SubmitBtn:hover:not(:disabled) {
+    box-shadow: 0 0 12px var(--blue) inset;
+}
