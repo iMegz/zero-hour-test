@@ -1,4 +1,4 @@
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
 import style from "./App.module.css";
 import Home from "./pages/Home";
 import Classic from "./pages/Classic";
@@ -26,6 +26,7 @@ function App() {
                 <Route path="/classic" element={<Classic />} />
                 <Route path="/emoji" element={<Emoji />} />
                 <Route path="/quote" element={<Quote />} />
+                <Route path="*" element={<Navigate to="/" />} />
             </Routes>
             <br />
             <Timer />
