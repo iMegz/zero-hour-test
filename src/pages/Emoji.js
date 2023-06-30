@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { randomEmoji } from "../utils/random";
-import data from "../assets/data/emoji.json";
+import data from "../data/emoji.json";
 import style from "./Game.module.css";
 import useGuess from "../hooks/useGuess";
 import Container from "../components/Container";

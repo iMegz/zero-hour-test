@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { getHistory, setHistory } from "../utils/history";
 import style from "./useGuess.module.css";
 
@@ -27,11 +27,11 @@ export default function useGuess(data, answer, game) {
         } else {
             setSuggestions([]);
         }
-    }, [value]);
+    }, [value, options]);
 
     useEffect(() => {
         setGameover(trials.at(-1) === answer.name);
-    }, [trials]);
+    }, [trials, answer.name]);
 
     function getOptions() {
         const history = getHistory(game);

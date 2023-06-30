@@ -29,8 +29,7 @@ body::-webkit-scrollbar {
 }
 body {
     animation: green-cursor 0.7s infinite;
-    background: url("assets/img/background.jpg");
-    /* background-position: center; */
+    background: url("img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;

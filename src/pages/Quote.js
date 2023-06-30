@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { randomQuote } from "../utils/random";
-import data from "../assets/data/quotes.json";
+import data from "../data/quotes.json";
 import style from "./Game.module.css";
 import useGuess from "../hooks/useGuess";
 import Container from "../components/Container";

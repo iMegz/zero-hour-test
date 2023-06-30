@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import Container from "../components/Container";
 import Form from "../components/Form";
-import data from "../assets/data/units.json";
+import data from "../data/units.json";
 import style from "./Game.module.css";
 import Table from "../components/Table";
 import { randomClassic } from "../utils/random";
