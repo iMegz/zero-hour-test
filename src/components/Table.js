@@ -13,14 +13,14 @@ export default function Table({ trials = [], answer = {} }) {
 
             const icon = (
                 <div className={style.td}>
-                    <img src={`../assets/units/${name}.jpg`} alt={name} />
+                    <img src={`assets/units/${name}.jpg`} alt={name} />
                 </div>
             );
 
             const isNation = nation === nationA ? "correct" : "incorrect";
             const nationIcon = (
                 <div className={`${style.td} ${style[isNation]}`}>
-                    <img src={`../assets/nations/${nation}.webp`} alt={name} />
+                    <img src={`assets/nations/${nation}.webp`} alt={name} />
                 </div>
             );
 

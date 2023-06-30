@@ -1,9 +1,8 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import Container from "../components/Container";
 import Form from "../components/Form";
 import data from "../assets/data/units.json";
-import style from "./Classic.module.css";
-import { getHistory, setHistory } from "../utils/history";
+import style from "./Game.module.css";
 import Table from "../components/Table";
 import { randomClassic } from "../utils/random";
 import useGuess from "../hooks/useGuess";
@@ -22,7 +21,7 @@ export default function Classic() {
     } = useGuess(data, answer, "classic");
 
     return (
-        <div className={style.Classic}>
+        <div className={style.Game}>
             {gameover ? (
                 ""
             ) : (

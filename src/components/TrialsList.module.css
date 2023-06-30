@@ -1,0 +1,32 @@
+.TrialsList {
+    background-color: #0000009c;
+    padding: 7px;
+    margin: auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    overflow-x: auto;
+    max-height: 269.2px;
+}
+.TrialsList li {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    width: 100%;
+    gap: 12px;
+}
+.correct {
+    border: 3px solid #00ff00;
+}
+.correct span {
+    color: #00ff00;
+}
+.incorrect {
+    border: 3px solid #ff0000;
+}
+.incorrect span {
+    color: #ff0000;
+}

@@ -1,54 +1,171 @@
-{
-    "Angry Mob": ["AK-47s for everyone!", "We have bigger guns!"],
-    "Aurora Bomber": ["Supersonic aircraft", "Pushing the envelope"],
-    "Avenger": ["Scanning for enemy aircraft", "Targeting cursor set"],
-    "Battle Master": ["Where is the battle?", "Serving China's needs"],
-    "Black Lotus": ["Alright I'm here, let's have an update", "What is it"],
-    "Bomb Truck": ["I have a delivery", "Not responsible for damaged goods"],
-    "Colonel Burton": ["I've seen it all", "I've seen it all"],
-    "Comanche": ["Need a little ground support?", "Gunship reporting in"],
-    "Construction Dozer": ["Layin' the foundation", "What's the story?"],
-    "Crusader": ["Heavy armor ready for action", "USA armor division"],
-    "Dragon Tank": ["Unleash the firestorm", "Temperatures stable"],
-    "Gattling Tank": ["Gun barrels spinning", "Keep the cylinders oiled"],
-    "Hacker": ["Batteries charged", "Laptop in hand"],
-    "Helix": ["The thunderstorm begins", "Making a fly-by"],
-    "Hijacker": ["Let's go car shopping", "Sight unseen"],
-    "Humvee": ["How about a lift?", "Buckle up"],
-    "Inferno Cannon": ["Let's rain some fire", "When do I get started?"],
-    "Jarmen Kell": ["I hear you", "Who's the target?"],
-    "Laser Crusader Tank": [
-        "Releasing energy pulse!",
-        "Keep the power flowing!"
-    ],
-    "Marauder Tank": ["Tread's tightened", "Armor bolted in"],
-    "Mig": ["China's airforce", "We defend China's airspace"],
-    "Mini-Gunner": ["Cut through them!", "Nothing will stop our bullets"],
-    "Missile Defender": ["We control the skies", "Let's pop some tanks"],
-    "Nuke Cannon": ["Behold, the bringer of light", "Precious cargo"],
-    "Attack Outpost": ["Adjusting frequency", "Tune in to the enemy"],
-    "Overlord": ["I am big", "Extra large"],
-    "Paladin": ["Protecting our people", "Polished and ready"],
-    "Path Finder": ["Hidden identity", "Scope clean and mounted"],
-    "Quad Cannon": ["Don't get on my bad side", "Four on the floor"],
-    "Radar Van": [
-        "What station you need, General?",
-        "We get signal from anywhere"
-    ],
-    "Ranger": ["Army's elite", "Special forces here"],
-    "Raptor": ["Flying high", "We control the skies"],
-    "Rebel": ["We will not be oppressed", "No cost is too great"],
-    "Red Guard": ["Defenders of peace", "Standing attention"],
-    "Rocket Buggy": ["Let's kick up some dirt!", "Roads? How boring"],
-    "RPG Trooper": ["The tunnels will protect us", "Quick, ready yourselves"],
-    "Scorpion Tank": ["No lack of courage", "Light tank of the GLA"],
-    "SCUD Launcher": ["Look at my beautiful weapon", "Hehehehehehehe"],
-    "Stealth Fighter": ["Ready for covert mission", "Smooth and sleek"],
-    "Tank Hunter": ["I am carrying the big gun", "I like the big targets"],
-    "Technical": ["We fear nothing", "Our clan is strong"],
-    "Terrorist": ["We must have justice", "I will die for our cause"],
-    "Tomahawk": ["Long range ballistics", "Cruise missiles ready"],
-    "Toxin Tractor": ["Fresh out of the lab", "How about a closer look?"],
-    "Troop Crawler": ["We have plenty of seats", "We have plenty of seats"],
-    "Worker": ["What do you want with me?", "Ow, ok ok I will work"]
-}
+[
+    {
+        "name": "Angry Mob",
+        "quotes": ["AK-47s for everyone!", "We have bigger guns!"]
+    },
+    {
+        "name": "Aurora Bomber",
+        "quotes": ["Supersonic aircraft", "Pushing the envelope"]
+    },
+    {
+        "name": "Avenger",
+        "quotes": ["Scanning for enemy aircraft", "Targeting cursor set"]
+    },
+    {
+        "name": "Battle Master",
+        "quotes": ["Where is the battle?", "Serving China's needs"]
+    },
+    {
+        "name": "Black Lotus",
+        "quotes": ["Alright I'm here, let's have an update", "What is it"]
+    },
+    {
+        "name": "Bomb Truck",
+        "quotes": ["I have a delivery", "Not responsible for damaged goods"]
+    },
+    {
+        "name": "Colonel Burton",
+        "quotes": ["I've seen it all", "I've seen it all"]
+    },
+    {
+        "name": "Comanche",
+        "quotes": ["Need a little ground support?", "Gunship reporting in"]
+    },
+    {
+        "name": "Construction Dozer",
+        "quotes": ["Layin' the foundation", "What's the story?"]
+    },
+    {
+        "name": "Crusader",
+        "quotes": ["Heavy armor ready for action", "USA armor division"]
+    },
+    {
+        "name": "Dragon Tank",
+        "quotes": ["Unleash the firestorm", "Temperatures stable"]
+    },
+    {
+        "name": "Gattling Tank",
+        "quotes": ["Gun barrels spinning", "Keep the cylinders oiled"]
+    },
+    { "name": "Hacker", "quotes": ["Batteries charged", "Laptop in hand"] },
+    {
+        "name": "Helix",
+        "quotes": ["The thunderstorm begins", "Making a fly-by"]
+    },
+    { "name": "Hijacker", "quotes": ["Let's go car shopping", "Sight unseen"] },
+    { "name": "Humvee", "quotes": ["How about a lift?", "Buckle up"] },
+    {
+        "name": "Inferno Cannon",
+        "quotes": ["Let's rain some fire", "When do I get started?"]
+    },
+    { "name": "Jarmen Kell", "quotes": ["I hear you", "Who's the target?"] },
+    {
+        "name": "Laser Crusader Tank",
+        "quotes": ["Releasing energy pulse!", "Keep the power flowing!"]
+    },
+    {
+        "name": "Marauder Tank",
+        "quotes": ["Tread's tightened", "Armor bolted in"]
+    },
+    {
+        "name": "Mig",
+        "quotes": ["China's airforce", "We defend China's airspace"]
+    },
+    {
+        "name": "Mini-Gunner",
+        "quotes": ["Cut through them!", "Nothing will stop our bullets"]
+    },
+    {
+        "name": "Missile Defender",
+        "quotes": ["We control the skies", "Let's pop some tanks"]
+    },
+    {
+        "name": "Nuke Cannon",
+        "quotes": ["Behold, the bringer of light", "Precious cargo"]
+    },
+    {
+        "name": "Attack Outpost",
+        "quotes": ["Adjusting frequency", "Tune in to the enemy"]
+    },
+    { "name": "Overlord", "quotes": ["I am big", "Extra large"] },
+    {
+        "name": "Paladin",
+        "quotes": ["Protecting our people", "Polished and ready"]
+    },
+    {
+        "name": "Path Finder",
+        "quotes": ["Hidden identity", "Scope clean and mounted"]
+    },
+    {
+        "name": "Quad Cannon",
+        "quotes": ["Don't get on my bad side", "Four on the floor"]
+    },
+    {
+        "name": "Radar Van",
+        "quotes": [
+            "What station you need, General?",
+            "We get signal from anywhere"
+        ]
+    },
+    {
+        "name": "Ranger",
+        "quotes": ["Army's elite", "Special forces here"]
+    },
+    { "name": "Raptor", "quotes": ["Flying high", "We control the skies"] },
+    {
+        "name": "Rebel",
+        "quotes": ["We will not be oppressed", "No cost is too great"]
+    },
+    {
+        "name": "Red Guard",
+        "quotes": ["Defenders of peace", "Standing attention"]
+    },
+    {
+        "name": "Rocket Buggy",
+        "quotes": ["Let's kick up some dirt!", "Roads? How boring"]
+    },
+    {
+        "name": "RPG Trooper",
+        "quotes": ["The tunnels will protect us", "Quick, ready yourselves"]
+    },
+    {
+        "name": "Scorpion Tank",
+        "quotes": ["No lack of courage", "Light tank of the GLA"]
+    },
+    {
+        "name": "SCUD Launcher",
+        "quotes": ["Look at my beautiful weapon", "Hehehehehehehe"]
+    },
+    {
+        "name": "Stealth Fighter",
+        "quotes": ["Ready for covert mission", "Smooth and sleek"]
+    },
+    {
+        "name": "Tank Hunter",
+        "quotes": ["I am carrying the big gun", "I like the big targets"]
+    },
+    {
+        "name": "Technical",
+        "quotes": ["We fear nothing", "Our clan is strong"]
+    },
+    {
+        "name": "Terrorist",
+        "quotes": ["We must have justice", "I will die for our cause"]
+    },
+    {
+        "name": "Tomahawk",
+        "quotes": ["Long range ballistics", "Cruise missiles ready"]
+    },
+    {
+        "name": "Toxin Tractor",
+        "quotes": ["Fresh out of the lab", "How about a closer look?"]
+    },
+    {
+        "name": "Troop Crawler",
+        "quotes": ["We have plenty of seats", "We have plenty of seats"]
+    },
+    {
+        "name": "Worker",
+        "quotes": ["What do you want with me?", "Ow, ok ok I will work"]
+    }
+]

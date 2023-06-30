@@ -69,13 +69,9 @@ export default function useGuess(data, answer, game) {
     }
 
     function mapTrials() {
-        if (game === "classic") {
-            const check = (unit) =>
-                data.find(
-                    ({ name }) => name.toLowerCase() === unit.toLowerCase()
-                );
-            return trials.map(check);
-        } else return trials;
+        const check = (unit) =>
+            data.find(({ name }) => name.toLowerCase() === unit.toLowerCase());
+        return trials.map(check);
     }
 
     return {
@@ -85,6 +81,7 @@ export default function useGuess(data, answer, game) {
         value,
         setValue,
         showSuggestions,
+        trials,
         mapTrials,
     };
 }

@@ -7,6 +7,20 @@
     padding: 0;
     text-decoration: none;
 }
+::-webkit-scrollbar {
+    background-color: #5555555a;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        var(--dark-blue),
+        var(--blue),
+        var(--blue),
+        var(--dark-blue)
+    );
+}
+body::-webkit-scrollbar {
+    width: 0;
+}
 :root {
     --blue: rgb(41, 56, 255);
     --dark-blue: rgb(50, 55, 151);
@@ -16,7 +30,7 @@
 body {
     animation: green-cursor 0.7s infinite;
     background: url("assets/img/background.jpg");
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
