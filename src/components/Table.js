@@ -1,15 +1,6 @@
-import Container from "./Container";
 import style from "./Table.module.css";
 
 export default function Table({ trials = [], answer = {} }) {
-    const unit = {
-        name: "Angry Mob",
-        nation: "GLA",
-        strengths: ["Infantry", "Vehicles"],
-        weaknesses: ["Flames", "Flash-bang grenades", "Toxins"],
-        cost: 800,
-    };
-
     function mapUnits() {
         return [...trials].reverse().map((unit) => {
             const { name, nation, strengths, weaknesses, cost } = unit;

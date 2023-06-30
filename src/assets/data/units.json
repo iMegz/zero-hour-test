@@ -157,7 +157,7 @@
         "name": "King Raptor",
         "nation": "USA",
         "strengths": ["Aircraft", "Light vehicles", "Tanks"],
-        "weaknesses": ["Anti-aircraft", "Missile-armed units"],
+        "weaknesses": ["Anti-aircraft"],
         "cost": 1100
     },
     {
