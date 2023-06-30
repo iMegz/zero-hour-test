@@ -16,7 +16,6 @@ export default function MobileView() {
                 display: "grid",
                 placeItems: "center",
                 width: "100%",
-                height: "100vh",
                 textAlign: "center",
                 fontSize: "1.2rem",
             }}
